@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 	<title>SfN Poster Rosch et al 2017</title>
+
 	<!-- STYLE DEFINITIONS -->
 	<style>
 		h1 { font-family: "Helvetica"; font-size: 30pt; font-weight: bold; color:#f6be00; max-width: 1600px; margin:0px; }
@@ -16,14 +18,16 @@
 			height:1080px; 
 			padding: 0px; 
 			position:absolute; 
-			top: 0px;}
+			top: 0px;
+			left: 0px;
+		}
 		
 		#header{  
 			width:1920px; 
 			height:200px; 
 			position:absolute;
 			left:0px; top:0px;
-			background: #3f3e3e url("Logos.png") no-repeat right bottom;
+			background: #3f3e3e url("Images/Logos.png") no-repeat right bottom;
 			background-size: 200px;
 		} 
 
@@ -68,6 +72,7 @@
 	</style>
 </head>
 <body>
+
 <div id = "container">
 	<!-- HEADER AREA -->
 	<div id = "header"> 
@@ -82,11 +87,20 @@
 	</div>
 	</div>
 
+
 	<!-- LEFT BOXES -->
 	<div id = "side"; style="left:0px; background:#999"></div>
 
 	<!-- MIDDLE BIT-->
-	<div id = "central"; style="left:480px; background:#111"></div>
+	<div id = "central"; style="left:480px; background:#111">
+	<iframe id = "iframe"></iframe>	
+	<script>
+		var doc = document.getElementById('iframe').contentWindow.document;
+		doc.open();
+		doc.write('Test');
+		doc.close();
+	</script>
+	</div>
 	<!-- 	<div id = "box"; style="background:#ccc;"> Introduction </div>
 	<div id = "box"; style="background:#ddd;"> Methods </div> -->
 
