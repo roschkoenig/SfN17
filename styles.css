@@ -1,0 +1,146 @@
+
+p {font-family: "Helvetica"; font-size:10pt; color: #222222; text-align: justify; margin-bottom: 10px;}
+strong {font-family: "Helvetica"; color: #222222; font-weight: bold;}
+p.smaller {font-size:9pt;}
+#normtext {font-family: "Helvetica"; font-size:10pt; color: #222222; text-align: justify;}
+
+
+
+table {font-family: "Helvetica"; color: #222222; text-align: justify; vertical-align: top}
+td{vertical-align: top;}
+tr{vertical-align: top;}
+
+ul {margin-left:-20px;}
+li {font-family: "Helvetica"; font-size:10pt; color: #222222; text-align: justify; margin-top: 10px; margin-bottom: 10px;}
+
+
+h1 { font-family: "Helvetica"; font-size: 30pt; font-weight: bold; color:#f6be00; max-width: 1600px; margin:0px; margin-top:-25px;}
+h2 { font-family: "Helvetica"; font-size: 14pt; font-weight: normal; color:white; margin: 0px; }
+h3 { font-family: "Helvetica"; font-size: 15pt; font-weight: bold; color:#222222; margin: 0px; }
+h4 { font-family: "Helvetica"; font-size: 12pt; font-weight: bold; color:#222222; margin: 0px; }		
+h3.boxhead { text-align:justify; margin-bottom:30px;}
+
+a { color:white;
+	text-decoration: none; }
+
+a:hover {text-decoration:underline;}
+
+div { }
+
+div:focus { 
+	background-color: white; 
+	outline: 0px solid transparent;
+}
+
+img.frontpage {
+	height:350px;
+	margin:auto;
+}
+
+img.icon {
+	height:18px;
+	vertical-align: middle;
+}
+
+
+
+#container{
+	width:1920px; 
+	height:1080px; 
+	padding: 0px; 
+	position:absolute; 
+	top: 0px;
+	left: 0px;
+}
+
+#header{  
+	width:1920px; 
+	height:200px; 
+	position:absolute;
+	left:0px; top:0px;
+	background: #3f3e3e url("Images/Logos.png") no-repeat right bottom;
+	background-size: 200px;
+} 
+
+#side{
+	width:960px; 
+	height:780px;
+	position: absolute;
+	top:200px;
+	padding:0px;
+}
+
+#central{
+	width:960px; 
+	height:780px;
+	position: absolute;
+	top:200px;
+	padding:0px;
+	margin:0px; 
+	left:480px; 
+	background:#ffffff;
+	overflow:hidden;
+}
+
+#box{
+	padding: 0px;
+	width: 480px; 
+	height: 390px;
+	position: relative;
+	margin:0px;
+	vertical-align: top;
+	float:left;
+}
+
+#doublebox-top{
+	padding: 0px;
+	width: 960px; 
+	height: 390px;
+	position: relative;
+	top:0px; 
+	margin:0px;
+	background:#ddd;
+}
+
+#doublebox-bottom{
+	padding: 0px;
+	width: 960px; 
+	height: 390px;
+	position: relative;
+	top:0px; 
+	margin:0px;
+	background:#eee;
+}
+
+#doublebox-top:hover{
+	background:#ffffff;
+}
+
+#doublebox-bottom:hover{
+	background:#ffffff;
+}
+
+#footer{ 
+	padding: 25px;
+	width:1870px; 
+	height:100px; 
+	position:absolute; 
+	top:980px; 
+	left:0px;
+	background: #f6be00; 
+}
+
+#textbox{
+	padding:50px;
+}
+
+#centrali{
+	width:960px;
+	height:780px; 
+	position:absolute;
+	top:0px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	overflow:hidden;
+}

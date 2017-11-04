@@ -1,0 +1,43 @@
+<!DOCTYPE HTML> <!-- HTML v5 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div style = "width:910px; overflow:hidden; position:absolute; height:480px">
+		<!-- <iframe id = "centrali" src = "http://127.0.0.1:1203"></iframe> -->
+		<iframe id = "centrali" src = https://roschkoenig.shinyapps.io/SfN17/></iframe>
+	</div>
+		
+	<div id = "textbox" style = "position:absolute; top:480px; width:550px; margin-top:-50px">
+		<table>
+			<tr><strong> Seizure are associated with imbalance in excitation-inhibition coupling parameters </strong> </tr>
+			<tr>
+				<td style = "padding-right:10px; width:255px;"> 
+				<p class = "smaller">
+					<strong><em>[Left]</em></strong> Parameters estimated for individual time windows are plotted onto a reduced parameter space made up by time constant and intrinsic connection changes in a single brain region (optic tectum). Colours of the dots indicate time (blue-early, red-late time windows). Background colour indicates the predicted low-frequency power at that position in parameter space.  
+				</p>
+
+				<p class = "smaller">
+					<strong><em>[Top Right]</em></strong> On hovering over the trajectories, predicted broadband (1-100Hz) neuronal spectra are plotted in comparison to the baseline average estimate. 
+				</p>
+				</td>
+
+				<td style = "padding-left:10px; width:255px;"> 
+				<p class = "smaller">
+					<strong><em>[Center Right]</em></strong> For each cursor position, the model parameters are also plotted. Note that the time constants vary smoothyl along the x-dimension, whilst the intrinsic connections vary along the y-dimension. 
+				</p>
+				<p class = "smaller">
+					<strong><em>[Bottom Right]</em></strong> Parameters represent particular neuronal population coupling features for a neural mass model of tectal coupling: time constants <em>T</em> describe the speed of a neuronal response to stimulation, whilst connection strengths <em>H</em> describe the influence of one population over another. 
+				</p>  
+				</td>
+			</tr>
+
+		</table>
+	</div>
+
+	<div style = "position:relative; top: 480px; left:650px; width:200px; vertical-align: top;">
+		<img src="Images/Microcircuit.png"; style="height:250px;">
+	</div>
+</body>
